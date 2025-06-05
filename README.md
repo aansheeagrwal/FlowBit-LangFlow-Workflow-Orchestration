@@ -135,14 +135,15 @@ flowbit-workflow-orchestration/
   }
 }
 ```
+
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to open a GitHub issue or submit a pull request.
----
+
 ### 🙌 Acknowledgements
 Built with ❤️ using FastAPI, Next.js, LangFlow, and Shadcn UI
 Inspired by modern multi-agent orchestration patterns
----
-👩‍💻 Author
+
+### 👩‍💻 Author
 Anshi Agarwal
 🔗 GitHub | 💼 LinkedIn
 
