@@ -16,24 +16,24 @@ Process emails, JSON, PDFs, and classify data dynamically! Run workflows manuall
 ---
 
 ## ✨ **Features**
-(1) Multi-agent system with specialized Python agents:
+Multi-agent system with specialized Python agents:
  - Email agent 📧
  - JSON agent 🗂️
  - PDF agent 📄
  - Classifier agent 🧠
-(2) Visual workflow creation and orchestration using LangFlow 🖥️
-(3) Backend API powered by FastAPI for agent management and data handling ⚡
-(4) Modern, responsive Next.js frontend using Shadcn UI for smooth user interaction 🎯
-(5) Persistent memory with SQLite for context and state management 🗄️
-(6) Real-time scheduling and automation via cron jobs ⏳
-(7) Dockerized environment for easy setup and deployment 🐳
+Visual workflow creation and orchestration using LangFlow 🖥️
+Backend API powered by FastAPI for agent management and data handling ⚡
+Modern, responsive Next.js frontend using Shadcn UI for smooth user interaction 🎯
+Persistent memory with SQLite for context and state management 🗄️
+Real-time scheduling and automation via cron jobs ⏳
+Dockerized environment for easy setup and deployment 🐳
 
 ---
 ### 🛠️ Getting Started
 Prerequisites:-
--> Python 3.8+
--> Node.js 16+
--> Docker & Docker Compose (for running LangFlow and Redis)
+ Python 3.8+
+ Node.js 16+
+ Docker & Docker Compose (for running LangFlow and Redis)
 
 ## 🛠️ **Setup Instructions**
 
@@ -92,11 +92,11 @@ Open your browser 👉 http://localhost:3000
 Backend runs at 👉 http://localhost:8000
 ---
 ### 🚀 Usage
-(1) Upload sample files from static/ or your own files via the frontend UI
-(2) Trigger workflows manually, via webhook, or schedule with cron
-(3) Watch live logs streaming on the frontend
-(4) Extend or customize agents in the agents/ directory
-(5) Visually build or modify workflows using LangFlow
+(1) Upload sample files from static/ or your own files via the frontend UI.
+(2) Trigger workflows manually, via webhook, or schedule with cron.
+(3) Watch live logs streaming on the frontend.
+(4) Extend or customize agents in the agents/ directory.
+(5) Visually build or modify workflows using LangFlow.
 
 ### 🗂️ Project Structure
 ```plaintext
@@ -119,12 +119,11 @@ flowbit-workflow-orchestration/
 ```
 
 ### ✅ Deliverables Checklist
-->  4 LangFlow agent flows saved as .json
-->  Flows auto-loaded via LANGFLOW_DEFAULT_FLOWS_PATH
-->  Connected frontend with agent sidebar & execution history
-->  Manual/Webhook/Cron triggers working
-->  Execution modal with live log streaming
----
+4 LangFlow agent flows saved as .json
+Flows auto-loaded via LANGFLOW_DEFAULT_FLOWS_PATH
+Connected frontend with agent sidebar & execution history
+Manual/Webhook/Cron triggers working
+Execution modal with live log streaming
 ### 📦 Example Trigger Payload
 ```json
 {
@@ -140,9 +139,9 @@ flowbit-workflow-orchestration/
 Contributions, issues, and feature requests are welcome! Feel free to open a GitHub issue or submit a pull request.
 ---
 ### 🙌 Acknowledgements
-- Built with ❤️ using FastAPI, Next.js, LangFlow, and Shadcn UI
-- Inspired by modern multi-agent orchestration patterns
-  
+Built with ❤️ using FastAPI, Next.js, LangFlow, and Shadcn UI
+Inspired by modern multi-agent orchestration patterns
+---
 👩‍💻 Author
 Anshi Agarwal
 🔗 GitHub | 💼 LinkedIn
