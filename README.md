@@ -34,7 +34,7 @@ Prerequisites:-
 - Python 3.8+
 - Node.js 16+
 - Docker & Docker Compose (for running LangFlow and Redis)
-
+---
 ## 🛠️ **Setup Instructions**
 
 ### 1️⃣ Clone the repo
@@ -97,7 +97,7 @@ npm run dev
 - Watch live logs streaming on the frontend.
 -  Extend or customize agents in the agents/ directory.
 -   Visually build or modify workflows using LangFlow.
-
+---
 ### 🗂️ Project Structure
 ```plaintext
 flowbit-workflow-orchestration/
@@ -117,13 +117,14 @@ flowbit-workflow-orchestration/
 
 
 ```
-
+---
 ### ✅ Deliverables Checklist
 - 4 LangFlow agent flows saved as .json
 - Flows auto-loaded via LANGFLOW_DEFAULT_FLOWS_PATH
 - Connected frontend with agent sidebar & execution history
 - Manual/Webhook/Cron triggers working
 - Execution modal with live log streaming
+---
 ### 📦 Example Trigger Payload
 ```json
 {
@@ -135,7 +136,7 @@ flowbit-workflow-orchestration/
   }
 }
 ```
-
+---
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to open a GitHub issue or submit a pull request.
 
@@ -147,7 +148,7 @@ Inspired by modern multi-agent orchestration patterns
 Anshi Agarwal
 🔗 GitHub | 💼 LinkedIn
 
-
+---
 
 
 
