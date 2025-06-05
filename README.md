@@ -16,24 +16,24 @@ Process emails, JSON, PDFs, and classify data dynamically! Run workflows manuall
 ---
 
 ## ✨ **Features**
-Multi-agent system with specialized Python agents:
+- Multi-agent system with specialized Python agents:
  - Email agent 📧
  - JSON agent 🗂️
  - PDF agent 📄
  - Classifier agent 🧠
-Visual workflow creation and orchestration using LangFlow 🖥️
-Backend API powered by FastAPI for agent management and data handling ⚡
-Modern, responsive Next.js frontend using Shadcn UI for smooth user interaction 🎯
-Persistent memory with SQLite for context and state management 🗄️
-Real-time scheduling and automation via cron jobs ⏳
-Dockerized environment for easy setup and deployment 🐳
+- Visual workflow creation and orchestration using LangFlow 🖥️
+- Backend API powered by FastAPI for agent management and data handling ⚡
+- Modern, responsive Next.js frontend using Shadcn UI for smooth user interaction 🎯
+- Persistent memory with SQLite for context and state management 🗄️
+- Real-time scheduling and automation via cron jobs ⏳
+- Dockerized environment for easy setup and deployment 🐳
 
 ---
 ### 🛠️ Getting Started
 Prerequisites:-
- Python 3.8+
- Node.js 16+
- Docker & Docker Compose (for running LangFlow and Redis)
+- Python 3.8+
+- Node.js 16+
+- Docker & Docker Compose (for running LangFlow and Redis)
 
 ## 🛠️ **Setup Instructions**
 
@@ -44,7 +44,7 @@ git clone https://github.com/aansheeagrwal/FlowBit-LangFlow-Workflow-Orchestrati
 cd FlowBit-LangFlow-Workflow-Orchestration
 ```
 ### 2️⃣ Backend Setup
--> Create & activate virtual environment:
+- Create & activate virtual environment:
 ```bash
 python -m venv venv
 # Windows
@@ -52,12 +52,12 @@ venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
 ```
--> Install Python dependencies:
+- Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 ### 3️⃣ Frontend Setup
--> Go to frontend folder:
+- Go to frontend folder:
 ```bash
 cd frontend
 ```
@@ -65,11 +65,11 @@ cd frontend
 ```bash
 npm install
 ```
--> Start frontend dev server:
+- Start frontend dev server:
 ```bash
 npm run dev
 ```
-Open your browser 👉 http://localhost:3000
+- Open your browser 👉 http://localhost:3000
 ### 4️⃣ API Endpoints
 
 | Endpoint                            | Purpose                        |
@@ -89,14 +89,14 @@ Open your browser 👉 http://localhost:3000
 | Cron    | Use a cron string to auto-trigger       |
 ---
 
-Backend runs at 👉 http://localhost:8000
----
+- Backend runs at 👉 http://localhost:8000
+
 ### 🚀 Usage
-(1) Upload sample files from static/ or your own files via the frontend UI.
-(2) Trigger workflows manually, via webhook, or schedule with cron.
-(3) Watch live logs streaming on the frontend.
-(4) Extend or customize agents in the agents/ directory.
-(5) Visually build or modify workflows using LangFlow.
+- Upload sample files from static/ or your own files via the frontend UI.
+- Trigger workflows manually, via webhook, or schedule with cron.
+- Watch live logs streaming on the frontend.
+-  Extend or customize agents in the agents/ directory.
+-   Visually build or modify workflows using LangFlow.
 
 ### 🗂️ Project Structure
 ```plaintext
@@ -119,11 +119,11 @@ flowbit-workflow-orchestration/
 ```
 
 ### ✅ Deliverables Checklist
-4 LangFlow agent flows saved as .json
-Flows auto-loaded via LANGFLOW_DEFAULT_FLOWS_PATH
-Connected frontend with agent sidebar & execution history
-Manual/Webhook/Cron triggers working
-Execution modal with live log streaming
+- 4 LangFlow agent flows saved as .json
+- Flows auto-loaded via LANGFLOW_DEFAULT_FLOWS_PATH
+- Connected frontend with agent sidebar & execution history
+- Manual/Webhook/Cron triggers working
+- Execution modal with live log streaming
 ### 📦 Example Trigger Payload
 ```json
 {
